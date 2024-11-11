@@ -1,0 +1,15 @@
+/* Apply a dark overlay to the entire page */
+body {
+    position: relative;
+}
+
+
+/* Selectively brighten elements with the dark pattern class */
+.__ph__pattern-detected {
+    position: relative;
+    padding: 5px;
+    z-index: 10000;
+    background-color: yellow !important;
+    border: 2px solid rgb(255, 255, 255) !important;
+    border-radius: 2px;
+}
